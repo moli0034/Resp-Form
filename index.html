@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Working With Forms</title>
+	<link href='https://fonts.googleapis.com/css?family=Noto+Serif|Merriweather+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<header id="mainHeader">
+		<div id="mainHeaderInner">
+			<div id="mainHeaderMain">Main Header</div>
+			<div id="mainHeaderSub">Sub Header</div>
+		</div>
+	</header>
+	<section id="mainSection">
+		<div id="mainSectionInner">
+			<form name="form" id="form" action="/" method="POST">
+				<div class="box">
+					<label for="email">Email:</label>
+					<input type="email" name="email" value="" placeholder="Email">
+				</div>
+				<div class="box">
+					<label for="url">URL:</label>
+					<input type="url" name="url" value="" placeholder="URL">
+				</div>
+				<div class="box">
+					<label for="msg">Message:</label>
+					<input type="text" name="msg" value="" placeholder="Message">
+				</div>
+				<div class="box">
+					<label for="password">Password:</label>
+					<input type="password" name="password" value="" placeholder="Password">
+				</div>
+				<div id="submit">
+					<input type="submit" value="Send Message">
+				</div>
+			</form>
+		</div>
+	</section>
+</body>
+</html>
