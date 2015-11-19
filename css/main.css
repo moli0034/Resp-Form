@@ -2,9 +2,6 @@
 	margin: 0;
 	padding: 0;
 }
-fieldset {
-	border: none;
-}
 body {
 	background-color: #4CAEFF;
 	font: 14px/1.4 'Merriweather Sans', sans-serif;
@@ -14,7 +11,7 @@ body {
 	color: #FFF;
 	font-family: 'Noto Serif', serif;
 	padding: 5px 0 10px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 #mainHeaderInner {
 	max-width: 1020px;
@@ -38,7 +35,7 @@ body {
 }
 .box {
 	width: 300px;
-	margin: 0 auto 15px;
+	margin: 0 auto 10px;
 }
 .box label {
 	display: none;
@@ -68,8 +65,6 @@ body {
 	.box {
 		width: 47.5%;
 		float: left;
-		padding-left: 0;
-		padding-right: 0;
 	}
 	.box:nth-child(odd) {
 		margin-right: 5%;
@@ -101,4 +96,5 @@ body {
 	.box:nth-child(odd) {
 		margin-right: 3%;
 	}
+
 }
