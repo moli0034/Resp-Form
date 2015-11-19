@@ -37,7 +37,7 @@ body {
 	width: 100%;
 	margin: 0 auto 15px;
 	padding-left: 10px;
-	padding-right: 10px;
+	padding-right: 30px;
 }
 .box label {
 	display: none;
@@ -67,6 +67,8 @@ body {
 	.box {
 		width: 47.5%;
 		float: left;
+		padding-left: 0;
+		padding-right: 0;
 	}
 	.box:nth-child(odd) {
 		margin-right: 5%;
