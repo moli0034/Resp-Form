@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
+fieldset {
+	border: o;
+}
 body {
 	background-color: #4CAEFF;
 	font: 14px/1.4 'Merriweather Sans', sans-serif;
